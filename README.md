@@ -16,7 +16,7 @@ And here's an example of what it looks like when I run the two programs:
 
 Brief descriptions of the four Python source code files:
 
-* ```defaults.py``` contains default settings for the database connection and the API key for accessing the [OpenWeatherMap](https://openweathermap.org/) API.
+* [```defaults.py```](https://github.com/dmahugh/weather-tracker/blob/master/defaults.py) contains default settings for the database connection and the API key for accessing the [OpenWeatherMap](https://openweathermap.org/) API.
 * ```dbfunctions.py``` contains a few simple helper functions for working with pymysql. The ```initialize_database``` function is what I used to create the tables after I had created my database instance in the [Google Cloud Console](https://cloud.google.com/cloud-console/).
 * ```update.py``` is the code that retrieves forecasts from OpenWeatherMap and saves them into the database.
 * ```forecaster.py``` is code that reads from the database and displays the current forecasts.
