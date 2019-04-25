@@ -8,8 +8,6 @@ Here's a high-level view of how it works:
 
 ![diagram](images/flow.png)
 
-I created the database via the 
-
 And here's an example of what it looks like when I run the two programs:
 
 ![screenshot](images/screenshot1.png)
