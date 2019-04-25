@@ -27,7 +27,7 @@ In ```defaults.py``` the default HOST is 127.0.0.1, so it looks like the app is 
 
 If you've ever worked with a managed cloud database service that requires you to whitelist a new IP address every time you stop at a coffee shop to do a bit of hacking (no comment), you'll appreciate this hassle-free approach. You just set it up once and forget about it. And I found the proxy surprisingly fast &mdash; it _feels_ like a local connection.
 
-You need to remember to start up the proxy before running you do any development and testing. I'm running on Windows, so I created a ```start_proxy.bat``` batch file with this line in it:
+You need to remember to start up the proxy before testing your code, and I'm running on Windows so I created a ```start_proxy.bat``` batch file with this line in it:
 
 ```
 start cmd.exe /c "cloud_sql_proxy -instances=<database_instance_connection_string>"
